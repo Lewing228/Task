@@ -1,0 +1,684 @@
+@media screen and (max-width:1400px) {
+    .order_block {
+        width: 700px;
+    }
+
+    .order_section {
+        background-size: 100% 100%;
+    }
+
+    .result_title {
+        width: auto;
+    }
+
+    .result_content img {
+        width: 500px;
+        height: 600px;
+    }
+
+    .text_result {
+        width: 500px;
+    }
+
+    .img_main {
+        width: 449px;
+        height: 330px;
+    }
+
+    .img_second {
+        width: 300px;
+        height: 190px;
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    .block1 img {
+        width: 400px;
+        height: 350px;
+    }
+
+    .benefits_list {
+        text-align: center;
+        width: 500px;
+    }
+
+    .benefits_items {
+        font-size: 24px;
+    }
+
+    .projector_title h1 {
+        width: auto;
+    }
+
+    .projector_content>img {
+        width: 550px;
+        height: 800px;
+        padding-right: 50px;
+    }
+
+    .images {
+        grid-template-columns: 300px 300px;
+    }
+
+    .img_item span {
+        margin-top: 10px;
+    }
+
+    .images img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .projector_list p {
+        width: 80%;
+    }
+
+    .img_catalog {
+        width: 300px;
+        height: 300px;
+    }
+
+    .catalog_item-title {
+        font-size: 24px;
+    }
+
+    .price_text {
+        font-size: 35px;
+    }
+
+    .btn_catalog {
+        font-size: 23px;
+    }
+
+    .reviews_item {
+        margin: auto 0;
+        width: 310px;
+        height: 300px;
+    }
+
+    .main {
+        width: 360px;
+        height: 370px;
+    }
+
+    .reviews_text-block {
+        height: 110px;
+    }
+
+    .reviews_face {
+        width: 80px;
+        height: 100px;
+        margin-right: 7px;
+    }
+
+    .main2 {
+        height: 180px;
+    }
+
+    .reviews_header-block img {
+        width: 140px;
+    }
+
+    .make_list {
+        justify-content: center;
+    }
+
+    .percent {
+        display: none;
+    }
+
+    .time_img {
+        display: none;
+    }
+
+    .time_block-flex {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .result_content img {
+        width: 400px;
+        height: 499px;
+    }
+
+    .text_result {
+        width: 440px;
+    }
+
+    .img_second {
+        width: 250px;
+        height: 180px;
+    }
+
+    .result_images img {
+        padding: 0 40px;
+    }
+
+    .img_main {
+        width: 330px;
+        height: 280px;
+    }
+
+    .benefits_list {
+        text-align: center;
+        width: 420px;
+    }
+
+    .benefits_title h1 {
+        width: auto;
+    }
+
+    .projector_content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .catalog_title h1 {
+        width: auto;
+    }
+
+    .catalog_items-block {
+        flex-wrap: wrap;
+    }
+
+    .catalog_items {
+        margin: 20px auto;
+    }
+
+    .reviews_title h1 {
+        width: auto;
+    }
+
+    .reviews_block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .reviews_item {
+        margin: 20px 60px;
+        width: 310px;
+        height: 300px;
+    }
+
+    .reviews_text-block {
+        height: 110px;
+    }
+
+    .make_title h1 {
+        width: auto;
+    }
+
+    .time_title h1 {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .list_item {
+        padding: 20px 0;
+    }
+
+    .order_block {
+        width: 520px;
+    }
+
+    .order_section {
+        background-size: 150% 100%;
+        background-position: right;
+    }
+
+    .result_content img {
+        width: 300px;
+        height: 360px;
+    }
+
+    .text_item {
+        font-size: 16px;
+    }
+
+    .img_main {
+        width: 300px;
+        height: 210px;
+    }
+
+    .img_second {
+        width: 195px;
+        height: 130px;
+    }
+
+    .benefits_list {
+        text-align: center;
+        width: 380px;
+    }
+
+    .benefits_items {
+        font-size: 20px;
+    }
+
+    .block1 img {
+        width: 300px;
+        height: 260px;
+    }
+
+    .title_block {
+        font-size: 36px;
+    }
+
+    .projector_content>img {
+        width: 500px;
+        height: 540px;
+        padding-right: 0;
+    }
+
+    .projector_content {
+        margin-top: 50px;
+    }
+
+    .projector_list p {
+        width: 90%;
+    }
+
+    .images {
+        grid-template-columns: 400px 300px;
+    }
+
+    .catalog_items {
+        margin: 40px 0;
+    }
+
+    .img_catalog {
+        width: 240px;
+        height: 250px;
+    }
+
+    .catalog_item-title {
+        font-size: 20px;
+    }
+
+    .price_text {
+        font-size: 25px;
+    }
+
+    .reviews_block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reviews_item {
+        margin: 20px 60px;
+        width: 520px;
+        height: 310px;
+    }
+
+    .reviews_text-block {
+        height: 145px;
+    }
+
+    .make_list p {
+        width: 540px;
+    }
+
+    .time_title h1 {
+        width: 700px;
+    }
+
+    .time_block {
+        width: 700px;
+    }
+
+    .time_title-block {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .list_item {
+        font-size: 20px;
+    }
+
+    .order_block {
+        width: 450px;
+    }
+
+    .title_text {
+        font-size: 18px;
+    }
+
+    .old_price p {
+        font-size: 27px;
+    }
+
+    .new_price p {
+        font-size: 27px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .text_result {
+        width: 240px;
+    }
+
+    .text_item {
+        font-size: 13px;
+    }
+
+    .img_second {
+        width: 140px;
+        height: 118px;
+    }
+
+    .img_main {
+        width: 220px;
+        height: 160px;
+    }
+
+    .result_images img {
+        padding: 0 5px;
+    }
+
+    .title_help h1 {
+        margin-top: 100px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    iframe {
+        width: 70%;
+        height: 500px;
+    }
+
+    .image>img {
+        width: 570px;
+        height: 790px;
+    }
+
+    .projector_block-content{
+        margin: auto;
+    }
+
+    .benefits_title h1 {
+        font-size: 46px;
+    }
+
+    .benefits_blocks {
+        margin-top: 40px;
+    }
+
+    .benefits_list {
+        text-align: center;
+        width: 290px;
+    }
+
+    .title_block {
+        font-size: 26px;
+    }
+
+    .block1 img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .projector_content {
+        justify-content: normal;
+    }
+
+    .projector_content>img {
+        padding-bottom: 50px;
+    }
+
+    .projector_list p {
+        width: 500px;
+    }
+
+    .images {
+        grid-template-columns: 350px 210px;
+    }
+
+    .make_list p {
+        width: 470px;
+    }
+
+    .make_list p {
+        font-size: 20px;
+    }
+
+    .time_title h1 {
+        width: 500px;
+    }
+
+    .time_block {
+        width: 549px;
+    }
+
+    input {
+        padding: 15px 0px;
+    }
+
+    .timer p {
+        font-size: 55px;
+        font-family: 'Circe extra';
+        color: #ee579e;
+    }
+
+    .time_title-block img {
+        width: 100px;
+        height: 100px;
+        margin: auto 0;
+    }
+
+    .time_title-block {
+        width: 389px;
+    }
+
+    .btn_catalog {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .catalog_item-title {
+        font-size: 18px;
+    }
+
+    .time_block-block {
+        width: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .order_block {
+        width: 360px;
+    }
+
+    .list_item {
+        font-size: 14px;
+    }
+
+    .old_price p {
+        font-size: 17px;
+    }
+
+    .new_price p {
+        font-size: 17px;
+    }
+
+    .old_price h2,
+    .new_price h2 {
+        font-size: 13px;
+        font-family: 'Circe bold';
+    }
+
+    .order_title {
+        font-size: 30px;
+    }
+
+    .title_text {
+        font-size: 13px;
+    }
+
+    .order_block {
+        padding: 0 20px;
+        padding-top: 40px;
+    }
+
+    .result_title {
+        font-size: 24px;
+    }
+
+    .order_section {
+        padding-bottom: 60px;
+    }
+
+    .result_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text_item:not(:first-child):before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .text_result {
+        text-align: center;
+    }
+
+    .img_second {
+        width: 100px;
+        height: 90px;
+    }
+
+    .img_main {
+        width: 130px;
+        height: 115px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .image>img {
+        width: 350px;
+        height: 619px;
+    }
+
+    .image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+
+    .video_help {
+        position: relative;
+    }
+
+    .title_help h1 {
+        font-size: 25px;
+    }
+
+    .benefits_title h1 {
+        font-size: 30px;
+    }
+
+    .projector_title h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .images {
+        grid-template-columns: 350px;
+        justify-items: center;
+    }
+
+    .list span {
+        font-size: 30px;
+    }
+
+    .projector_list p {
+        font-size: 15px;
+        padding: 25px 0;
+    }
+
+    .projector_list p {
+        width: 270px;
+    }
+
+    .catalog_title h1 {
+        font-size: 50px;
+    }
+
+    .footer_text {
+        font-size: 15px;
+    }
+
+    .reviews_title h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .catalog_items-block {
+        justify-content: center;
+    }
+
+    .make_title h1 {
+        font-size: 35px;
+    }
+
+    .make_list p {
+        width: 270px;
+    }
+
+    .time_title h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .order_title-block {
+        margin: 0 -20px;
+    }
+
+    .time_title-block {
+        margin: auto;
+        display: block;
+        width: 270px;
+    }
+
+    input {
+        width: 144px;
+        font-size: 15px;
+    }
+
+    .timer p {
+        font-size: 30px;
+    }
+
+    .time_block-block {
+        width: 145px;
+    }
+
+    .time_title-block {
+        width: 145px;
+    }
+
+    .time_title h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .time_block {
+        width: 330px;
+    }
+}
