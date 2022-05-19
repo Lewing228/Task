@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="order_btn">
-                            <button class="btn">ЗАКАЗАТЬ СЕЙЧАС</button>
+                            <button class="btn" href="#order" onclick="slowScroll('#order')">ЗАКАЗАТЬ СЕЙЧАС</button>
                             <p>кол-во товара ограничено</p>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                             <h1>ОТЗЫВЫ ПОКУПАТЕЛЕЙ</h1>
                         </div>
                         <div class="reviews_block">
-                            <div class="reviews_item">
+                            <div class="reviews_item ">
                                 <div class="reviews_header">
                                     <img src="img/отзывы покупателей/face.png" alt="" class="reviews_face">
                                     <div class="reviews_header-block">
@@ -381,7 +381,7 @@
             </div>
         </section>
         <section>
-            <div class="section_time">
+            <div class="section_time" id="order">
                 <div class="time_title">
                     <h1>ЗАКАЖИТЕ СЕЙЧАС СО СКИДКОЙ</h1>
                 </div>
@@ -411,26 +411,29 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="time_list">
-                                    <input type="text" placeholder="Ваше имя">
-                                    <input type="text" placeholder="Номер телефона">
-                                </div>
-                                <div class="time_price">
-                                    <div class="old_price">
-                                        <h2>Обычная цена:</h2>
-                                        <s>
-                                            <p>35980 ТГ</p>
-                                        </s>
+                                <form name="myForm" onsubmit="return validate()">
+                                    <div class="time_list">
+                                        <span id="err"></span>
+                                        <input type="text" placeholder="Ваше имя" name="Name" id="name">
+                                        <input placeholder="Номер телефона" name="tel" id="tel" type="tel">
                                     </div>
-                                    <div class="new_price">
-                                        <h2>Цена сегодня:</h2>
-                                        <p>17990 ТГ</p>
+                                    <div class="time_price">
+                                        <div class="old_price">
+                                            <h2>Обычная цена:</h2>
+                                            <s>
+                                                <p>35980 ТГ</p>
+                                            </s>
+                                        </div>
+                                        <div class="new_price">
+                                            <h2>Цена сегодня:</h2>
+                                            <p>17990 ТГ</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="order_btn">
-                                    <button class="btn">ЗАКАЗАТЬ СЕЙЧАС</button>
-                                    <p>кол-во товара ограничено</p>
-                                </div>
+                                    <div class="order_btn">
+                                        <button class="btn" type="submit">ЗАКАЗАТЬ СЕЙЧАС</button>
+                                        <p>кол-во товара ограничено</p>
+                                    </div>
+                                </form>
                             </div>
                             <div class="time_img">
                                 <img src="img/закажите сейчас со скидкой/1.png" alt="">
@@ -463,6 +466,8 @@
         </div>
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

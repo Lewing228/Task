@@ -348,6 +348,7 @@ h6 {
 .section_benefits{
     box-shadow: 0px 20px 20px 0px rgb(247, 247, 247);
     border-radius: 30px;
+    padding-bottom: 100px;
 }
 
 .benefits_title h1{
@@ -838,6 +839,12 @@ input{
     font-family: 'Circe bold';
     text-align: center;
     border-radius: 30px;
+}
+
+#err{
+    font-size: 24px;
+    font-family: 'Circe bold';
+    color: red;
 }
 
 .percent{
