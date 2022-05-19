@@ -272,7 +272,7 @@ h6 {
 
 .text_result{
     margin: auto 0;
-    width: 900px;
+    width: 660px;
 }
 
 .text_item{
@@ -296,15 +296,15 @@ h6 {
     box-shadow: 1px 0px 20px 0px rgb(143 143 143);;
 }
 
-.img_second{
-    width: 400px;
-    height: 250px;
+.img_second {
+    width: 350px;
+    height: 190px;
 }
 
 
-.img_main{
-    width: 600px;
-    height: 450px;
+.img_main {
+    width: 480px;
+    height: 340px;
 }
 /* HELP */
 
@@ -326,6 +326,10 @@ h6 {
 .image{
     position: absolute;
     z-index: -1;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image > img{
@@ -334,6 +338,7 @@ h6 {
 
 .video_help{
     padding: 200px 0;
+    position: relative;
     text-align: center;
     z-index: 2;
 }
@@ -356,6 +361,10 @@ h6 {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 30px 40px;
+}
+
+.benefits_content{
+    position: relative;
 }
 
 .block1 img{
@@ -381,8 +390,12 @@ h6 {
 
 .benefits_list{
     text-align: center;
-    width: 700px;
-    margin: auto 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.swiper-wrapper{
+    display: block;
 }
 
 .benefits_items{
@@ -401,6 +414,10 @@ h6 {
     width: 50%;
     height: 4px;
     background: #fbd5e7;
+}
+
+.mySwiper2{
+    display: none;
 }
 
 /* PROJECTOR */
@@ -437,7 +454,8 @@ h6 {
 
 .images{
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 300px 300px;
+    justify-items: center;
 }
 
 .img_item img{
@@ -537,7 +555,7 @@ h6 {
 }
 
 .catalog_items{
-    padding: 20px 0 20px 40px;
+    padding: 20px;
     border-radius: 30px;
     box-shadow: 0px 0px 20px 20px rgb(247 247 247);
 }
@@ -731,6 +749,7 @@ h6 {
     box-shadow: -1px 8px 10px rgb(113 113 113);
     padding-top: 70px;
     margin: 0 50px;
+    z-index: 1;
 }
 
 .time_title-block{
@@ -764,11 +783,12 @@ h6 {
     border-top-left-radius: 20px;
 }
 
-.timer{
+#timer{
     display: flex;
+    justify-content: center;
 }
 
-.timer p{
+#timer p{
     font-size: 68px;
     font-family: 'Circe extra';
     color: #ee579e;
@@ -803,6 +823,11 @@ h6 {
 
 .time_img{
     z-index: 1;
+    max-width: 100%;
+}
+
+.time_img img{
+    width: 100%;
 }
 
 input{

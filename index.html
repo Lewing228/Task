@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
     <title>Document</title>
@@ -109,8 +110,53 @@
                         <div class="benefits_title">
                             <h1>ПРЕИМУЩЕСТВА</h1>
                         </div>
-                        <div class="benefits_blocks">
-                            <div class="block1">
+                        <div class="swiper mySwiper">
+                            <div class="benefits_blocks">
+                                <div class="block1">
+                                    <img src="img/преимущества/1.png" alt="">
+                                    <div class="benefits_list">
+                                        <h2 class="title_block">РАЗВИВАЕТ РЕБЕНКА</h2>
+                                        <p class="benefits_items">Улучшает моторику рук</p>
+                                        <p class="benefits_items">Развивает фантазию и образное мышление</p>
+                                        <p class="benefits_items">Формирует представление о явлениях
+                                            окружающего мира</p>
+                                    </div>
+                                </div>
+                                <div class="block1">
+                                    <div class="benefits_list ">
+                                        <h2 class="title_block"> СТИЛЬ И КОМФОРТ</h2>
+                                        <p class="benefits_items">Очень мобилен, можно брать с собой</p>
+                                        <p class="benefits_items">Аккуратный и компактный дизайн</p>
+                                        <p class="benefits_items">Скрасит любую обстановку</p>
+                                    </div>
+                                    <img src="img/преимущества/2.png" alt="">
+                                </div>
+                                <div class="block1">
+                                    <img src="img/преимущества/4.png" alt="">
+                                    <div class="benefits_list">
+                                        <h2 class="title_block">ПОЛЕЗНО РЕБЕНКУ</h2>
+                                        <p class="benefits_items">Ребенок окунется в мир творчества</p>
+                                        <p class="benefits_items">Станет более усидчивым, внимательным
+                                            и креативным</p>
+                                        <p class="benefits_items">Возможность сотворить все что угодно</p>
+                                    </div>
+                                </div>
+                                <div class="block1">
+                                    <div class="benefits_list">
+                                        <h2 class="title_block">ЭКО МАТЕРИАЛЫ</h2>
+                                        <p class="benefits_items">Высокое качество</p>
+                                        <p class="benefits_items">Крупные и приятные на ощупь детали</p>
+                                        <p class="benefits_items">Создано из качественного обработанного пластика</p>
+                                    </div>
+                                    <img src="img/преимущества/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper2">
+                        <div class="benefits_blocks swiper-wrapper">
+                            <div class="block1 swiper-slide">
                                 <img src="img/преимущества/1.png" alt="">
                                 <div class="benefits_list">
                                     <h2 class="title_block">РАЗВИВАЕТ РЕБЕНКА</h2>
@@ -120,8 +166,8 @@
                                         окружающего мира</p>
                                 </div>
                             </div>
-                            <div class="block1">
-                                <div class="benefits_list">
+                            <div class="block1 swiper-slide">
+                                <div class="benefits_list ">
                                     <h2 class="title_block"> СТИЛЬ И КОМФОРТ</h2>
                                     <p class="benefits_items">Очень мобилен, можно брать с собой</p>
                                     <p class="benefits_items">Аккуратный и компактный дизайн</p>
@@ -129,7 +175,7 @@
                                 </div>
                                 <img src="img/преимущества/2.png" alt="">
                             </div>
-                            <div class="block1">
+                            <div class="block1 swiper-slide">
                                 <img src="img/преимущества/4.png" alt="">
                                 <div class="benefits_list">
                                     <h2 class="title_block">ПОЛЕЗНО РЕБЕНКУ</h2>
@@ -139,7 +185,7 @@
                                     <p class="benefits_items">Возможность сотворить все что угодно</p>
                                 </div>
                             </div>
-                            <div class="block1">
+                            <div class="block1 swiper-slide">
                                 <div class="benefits_list">
                                     <h2 class="title_block">ЭКО МАТЕРИАЛЫ</h2>
                                     <p class="benefits_items">Высокое качество</p>
@@ -149,6 +195,7 @@
                                 <img src="img/преимущества/3.png" alt="">
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -349,17 +396,17 @@
                                         <div class="time_text">
                                             <h2>КОНЕЦ АКЦИИ ЧЕРЕЗ</h2>
                                         </div>
-                                        <div class="timer">
-                                            <div class="days">
-                                                <p>00</p>
+                                        <div id="timer">
+                                            <div>
+                                                <p class="hours">00</p>
                                             </div>
                                             <p>:</p>
-                                            <div class="hours">
-                                                <p>00</p>
+                                            <div>
+                                                <p class="minutes">00</p>
                                             </div>
                                             <p>:</p>
-                                            <div class="minutes">
-                                                <p>00</p>
+                                            <div>
+                                                <p class="seconds">00</p>
                                             </div>
                                         </div>
                                     </div>
@@ -415,6 +462,7 @@
             <p>Политика конфиденциальности</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

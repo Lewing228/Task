@@ -41,7 +41,8 @@
 
     .benefits_list {
         text-align: center;
-        width: 500px;
+        width: 400px;
+        margin: 0 auto;
     }
 
     .benefits_items {
@@ -56,6 +57,7 @@
         width: 550px;
         height: 800px;
         padding-right: 50px;
+        margin: 0 auto;
     }
 
     .images {
@@ -261,8 +263,8 @@
     }
 
     .block1 img {
-        width: 300px;
-        height: 260px;
+        width: 370px;
+        height: 340px;
     }
 
     .title_block {
@@ -397,8 +399,15 @@
     }
 
     .image>img {
-        width: 570px;
-        height: 790px;
+        max-width: 100%;
+    }
+
+    .mySwiper{
+        display: none;
+    }
+
+    .mySwiper2{
+        display: flex;
     }
 
     .projector_block-content{
@@ -409,15 +418,15 @@
         font-size: 46px;
     }
 
-    .benefits_blocks {
-        margin-top: 40px;
-    }
-
     .benefits_list {
+        margin: auto;
         text-align: center;
         width: 290px;
     }
 
+    .swiper-wrapper{
+        display: flex;
+    }
     .title_block {
         font-size: 26px;
     }
@@ -492,6 +501,19 @@
         width: 250px;
     }
 
+    .swiper {
+        max-width: 600px;
+        height: 700px;
+    }
+
+    .catalog_items-block {
+        justify-content: center;
+    }
+
+    .catalog_items {
+        padding: 40px;
+    }
+
 }
 
 
@@ -539,6 +561,14 @@
         padding-bottom: 60px;
     }
 
+    .block1{
+        flex-direction: column;
+    }
+
+    .title_block {
+        padding: 30px 0;
+    }
+
     .result_content {
         display: flex;
         flex-wrap: wrap;
@@ -569,28 +599,24 @@
         height: 300px;
     }
 
-    .image>img {
-        width: 350px;
-        height: 619px;
-    }
-
-    .image {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: -1;
-    }
-
-    .video_help {
-        position: relative;
-    }
-
     .title_help h1 {
         font-size: 25px;
     }
 
     .benefits_title h1 {
         font-size: 30px;
+    }
+
+    .benefits_items {
+        padding: 20px 0;
+    }
+
+    .benefits_list {
+        margin: 0 auto;
+    }
+
+    .block1 img {
+        margin: 0 auto;
     }
 
     .projector_title h1 {
@@ -661,7 +687,7 @@
         font-size: 15px;
     }
 
-    .timer p {
+    #timer p {
         font-size: 30px;
     }
 
