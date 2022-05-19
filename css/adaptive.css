@@ -361,8 +361,8 @@
     }
 
     .btn {
-        padding: 10px 20px;
-        font-size: 20px;
+        padding: 10px 0px;
+        font-size: 15px;
     }
 
     .text_result {
@@ -527,11 +527,11 @@
     }
 
     .old_price p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .new_price p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .old_price h2,
